@@ -10,17 +10,20 @@ No dependencies. No setup. Just code that watches back.
 
 ## Included Tools
 
-#### ▸ [BuildWatcher](./BuildWatcher)
+#### ▸ [BuildWatcher](./BuildWatcher)  
 Monitors a build folder in real time. Tells you if nothing is happening — which is sometimes worse than errors.
 
-#### ▸ [GhostEnv](./GhostEnv)
+#### ▸ [GhostEnv](./GhostEnv)  
 Scans your Python environment for contamination. Flags dangerous overrides, poisoned paths, and shadowed modules.
 
-#### ▸ [Loop-Jammer](./Loop-Jammer)
+#### ▸ [Loop-Jammer](./Loop-Jammer)  
 Detects infinite or slow-burning loops based on real-time behavior. Insert into any loop to force runtime awareness.
 
-#### ▸ [StackWhisper](./StackWhisper)
-Scans your program's active stack for known memory markers and reveals residual stack state. Great for low-level memory layout analysis and forensic-style inspection.
+#### ▸ [StackWhisper](./StackWhisper)  
+Scans your program’s active stack for known memory markers and reveals residual stack state. Great for low-level memory layout analysis and forensic-style inspection.
+
+#### ▸ [StackGhost](./StackGhost)  
+A forensic memory tool that plants a payload on the stack and self-triggers by scanning for its own marker. Executes code that "shouldn't be reachable" — the cleanest hijack you’ll ever see.
 
 ---
 
@@ -28,10 +31,10 @@ Scans your program's active stack for known memory markers and reveals residual 
 
 Each tool in this collection:
 
-- Solves a real-world dev issue that isn't obvious or easy to trace
-- Requires no external libraries or setup
-- Is self-contained, surgical, and readable
-- Is designed to act fast and fail clean
+- Solves a real-world dev issue that isn't obvious or easy to trace  
+- Requires no external libraries or setup  
+- Is self-contained, surgical, and readable  
+- Is designed to act fast and fail clean  
 
 Use them if you’ve ever thought:
 
