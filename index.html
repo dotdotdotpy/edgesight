@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>edgesight</title>
+  <style>
+    body {
+      background: #111;
+      color: #e6e6e6;
+      font-family: monospace;
+      padding: 40px;
+    }
+    h1 {
+      color: #00ffaa;
+    }
+    a {
+      color: #99ccff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .tool {
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>edgesight</h1>
+  <p>Tools for catching what your runtime won't.</p>
+
+  <div class="tool">
+    <h2><a href="buildwatcher/buildwatcher.py">buildwatcher.py</a></h2>
+    <p>Watches a build folder. Warns when nothing happens.</p>
+  </div>
+
+  <div class="tool">
+    <h2><a href="ghostenv/ghostenv.py">ghostenv.py</a></h2>
+    <p>Scans Python environments for hidden issues, path poisoning, or shadowed imports.</p>
+  </div>
+
+  <div class="tool">
+    <h2><a href="loop-jammer/loop-jammer.py">loop-jammer.py</a></h2>
+    <p>Detects infinite/stuck loops from the inside. Exits when limits are crossed.</p>
+  </div>
+
+  <p style="margin-top: 40px; font-size: 0.9em;">Created by <a href="https://github.com/dotdotdotpy">@dotdotdotpy</a></p>
+</body>
+</html>
