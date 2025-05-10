@@ -8,7 +8,7 @@ No dependencies. No setup. Just code that watches back.
 
 ---
 
- Included Tools
+## Included Tools
 
 #### ▸ [BuildWatcher](./BuildWatcher)
 Monitors a build folder in real time. Tells you if nothing is happening — which is sometimes worse than errors.
@@ -19,10 +19,12 @@ Scans your Python environment for contamination. Flags dangerous overrides, pois
 #### ▸ [Loop-Jammer](./Loop-Jammer)
 Detects infinite or slow-burning loops based on real-time behavior. Insert into any loop to force runtime awareness.
 
+#### ▸ [StackWhisper](./StackWhisper)
+Scans your program's active stack for known memory markers and reveals residual stack state. Great for low-level memory layout analysis and forensic-style inspection.
 
 ---
 
- Philosophy
+## Philosophy
 
 Each tool in this collection:
 
@@ -37,7 +39,7 @@ Use them if you’ve ever thought:
 
 ---
 
- Author
+## Author
 
 Built by [`@dotdotdotpy`](https://github.com/dotdotdotpy)  
 Each file stands alone. Together, they form a surface monitor for real software.
